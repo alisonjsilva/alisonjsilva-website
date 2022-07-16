@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className="flex flex-1 flex-col justify-center items-center min-h-screen py-1 px-2">
         <Header />
         <Social />
       </main>

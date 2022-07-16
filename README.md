@@ -1,5 +1,6 @@
 This is just my personal website
 
+🚀 Vercel
 🎯 Next.js
  - TypeScript
  - TailwindCss
