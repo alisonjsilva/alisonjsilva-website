@@ -19,14 +19,8 @@ const Home: NextPage = () => {
         <Social />
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          From Lisbon 🇵🇹 with love{' '} ❤️
-        </a>
+      <footer className="flex flex-1 justify-center items-center p-3 border-t-[1px] border-t-gray-200">
+        From Lisbon 🇵🇹 with love{' '} ❤️
       </footer>
     </div>
   )
