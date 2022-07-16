@@ -8,7 +8,7 @@ export default function Social() {
                 <Link
                     href="https://github.com/alisonjsilva/">
 
-                    <a className="" target="_blank">
+                    <a className="hover:text-cyan-600" target="_blank">
                         <AiFillGithub />
                     </a>
                 </Link>
@@ -17,7 +17,7 @@ export default function Social() {
                 <Link
                     href="https://www.linkedin.com/in/alisonjsilva/">
 
-                    <a target="_blank">
+                    <a className="hover:text-cyan-600" target="_blank">
                         <AiOutlineLinkedin />
                     </a>
                 </Link>
