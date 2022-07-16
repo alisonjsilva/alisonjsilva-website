@@ -4,3 +4,4 @@ This is just my personal website
  - TypeScript
  - TailwindCss
  - Headless UI
+ - React Icons
