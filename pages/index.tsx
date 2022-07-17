@@ -13,9 +13,13 @@ const Home: NextPage = () => {
         <div className='w-1/4'></div>
         <div className='md:w-2/4'>
           <Head>
-            <title>Alison Silva Website</title>
+            <title>Alison Silva Web developer Website</title>
             <meta name="description" content="Alison Silva Website" />
-            <link rel="icon" href="/favicon.ico" />
+
+            <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+            <link rel="manifest" href="/favicon/site.webmanifest"></link>
           </Head>
 
           <main className="flex flex-1 flex-col justify-center items-center min-h-screen py-1 px-2">
