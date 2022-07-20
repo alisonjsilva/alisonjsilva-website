@@ -7,7 +7,7 @@ export default function Bio() {
                 With more than 15 years of experience, I have helped companies to implement their technological experiences.
             </p>
             <p>
-                Now I&apos;m working to Wunderman Thompson using Next.js, GraphQl, TailwindCss and NodeJs.
+                Now I&apos;m working to Wunderman Thompson using Next.js, GraphQL, TailwindCss and NodeJs.
             </p>
         </div>
     )
