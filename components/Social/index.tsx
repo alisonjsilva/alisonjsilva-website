@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Social() {
     return (
-        <ul className="flex gap-2 text-5xl text-gray-700 lg:text-4xl">
+        <ul className="flex gap-2 text-5xl text-gray-700 dark:text-white lg:text-4xl">
             <li>
                 <Link
                     href="https://github.com/alisonjsilva/">
