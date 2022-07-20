@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         />
       </Switch>
 
-      <div className='flex dark:bg-slate-800'>
+      <div className='flex transition-colors duration-700 dark:bg-slate-800'>
         <div className='w-1/4'></div>
         <div className='md:w-2/4'>
           <Head>
