@@ -9,7 +9,7 @@ import { Switch } from '@headlessui/react'
 import { useState } from 'react'
 
 const Home: NextPage = () => {
-  const [enableDarkMode, setEnableDarkMode] = useState(false)
+  const [enableDarkMode, setEnableDarkMode] = useState(true)
 
   return (
     <div className={`${enableDarkMode ? 'dark' : ''}`}>
