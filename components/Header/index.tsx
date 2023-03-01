@@ -1,9 +1,11 @@
+import Photo from "@components/Photo";
 
 
 export default function Header() {
 
     return (
         <>
+            <Photo />
             <h1 className="text-center text-8xl font-extrabold pb-2 text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600">
                 Alison Silva
             </h1>

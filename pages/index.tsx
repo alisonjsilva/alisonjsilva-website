@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         checked={enableDarkMode}
         onChange={setEnableDarkMode}
         className={`${enableDarkMode ? 'bg-gradient-to-r from-cyan-600 to-blue-600' : 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'
-          } fixed inline-flex h-6 w-11 items-center rounded-full right-2 top-2`}
+          } fixed inline-flex h-6 w-11 items-center rounded-full right-2 top-2 z-50`}
       >
         <span className="sr-only">Dark mode</span>
         <span
